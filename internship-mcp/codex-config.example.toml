@@ -1,0 +1,4 @@
+# Merge this section into your Codex config; replace both paths for your machine.
+[mcp_servers.internship-search]
+command = "/Users/irishao/Documents/GitHub/skills/internship-mcp/.venv/bin/python"
+args = ["/Users/irishao/Documents/GitHub/skills/internship-mcp/server.py"]
