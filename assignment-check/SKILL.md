@@ -1,6 +1,6 @@
 ---
 name: assignment-check
-description: Review a project against assignment instructions and rubric, citing evidence and reporting unmet requirements without fixing the work. Use when asked to check assignment compliance, find missing deliverables, or review readiness to submit.
+description: Review a project against assignment instructions and rubric, citing evidence and reporting unmet requirements without fixing the work. Use when asked to check against assignment criteria, find missing deliverables, or review readiness to submit.
 ---
 
 # Assignment Check
