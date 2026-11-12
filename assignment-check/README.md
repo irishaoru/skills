@@ -2,11 +2,11 @@
 It is an assignment criteria checker that checks the user's current HW/project against the criteria posted online. It triggers whenever the user asked to check against assignment criteria, find missing deliverables, or review readiness to submit. It's also prompted if the user simply types in "assignment check" along with the appropriate link, text or document file. 
 
 ## What the MCP tool does:
-The MCP tool uses Stripe's Greenhouse board to find a list of internships and give it back to the users in the form of an .xlsx file that they can open in Excel or import it into Google Sheets.
+The MCP tool uses Greenhouse company boards to find a list of internships and give it back to the users in the form of an .xlsx file that they can open in Excel or import it into Google Sheets.
 
 ## Motivations for the skill:
 Previously having to ask the agent to check my work against the assignment criteria repeatedly. 
-Prompt logs: "check my work based on this assignment criteria and tell me what i still need to add/what to improve for exisitng parts."
+Prompt log from HW 4: "check my work based on this assignment criteria and tell me what i still need to add/what to improve for exisitng parts."
 
 ## Motivations for the MCP:
 Time consuming and tedious for find internships one by one that are relevant and organize it in a spreadsheet. It would make my life a lot easier to have AI automate this process for me so that I can focus on the important part like actually applying for the roles.
