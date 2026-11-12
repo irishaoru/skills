@@ -88,8 +88,6 @@ The spreadsheet partially meets the MCP tool’s requirements. It is a valid exp
 
 Reviewed: [Run 2 spreadsheet](../evidence/internships-run2.xlsx) (repository copy of `internships-3d74c4e9bb6d.xlsx`).
 
-Requirements source: the MCP tool contract in [server.py (line 53)](/Users/irishao/Documents/GitHub/skills/internship-mcp/server.py:53). A separate agent independently inspected the workbook because this session produced it.
-
 | Requirement | Status | Evidence or gap |
 | --- | --- | --- |
 | Collect education, skills, interests, locations, and availability before searching | MET | Transcript confirms intake; all five fields appear in `Search context!B6:B10`. |

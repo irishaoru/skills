@@ -6,7 +6,16 @@ The MCP tool uses Greenhouse company boards to find a list of internships and gi
 
 ## Motivations for the skill:
 Previously having to ask the agent to check my work against the assignment criteria repeatedly. 
-Prompt log from HW 4: "check my work based on this assignment criteria and tell me what i still need to add/what to improve for exisitng parts."
+Prompt log from vector database project: "is that still under chroma/abiding by assignment requirements?"
+Prompt log from HW7: "do i have all of these in my readme to hand off: 
+README.md This serves both someone who wants to run the game and the developer taking over. Include: How to install and run it on a machine that isn't yours
+Controls, and anything else a player needs to know
+Which acceptance criteria are already met, and which aren't
+A map of the code: what each file, class, or major function is responsible for, so someone knows where to go to change a given behavior
+What you'd do next, in priority order
+Known bugs and traps (e.g. the thing that breaks when you resize the window, the function that looks reusable but isn't)
+Where you cut corners, and why"
+
 
 ## Motivations for the MCP:
 Time consuming and tedious for find internships one by one that are relevant and organize it in a spreadsheet. It would make my life a lot easier to have AI automate this process for me so that I can focus on the important part like actually applying for the roles.

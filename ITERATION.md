@@ -11,4 +11,4 @@ For the mismatch, it was because AI didn't verify every role individually and on
 ## What I changed and rerun results:
 I updated the MCP server to include individual assessments of all the roles, not just a subset of them. I also gave it more specific guidelines to follow when it came to what was considered duration vs. not. The  duration extractor now requires internship-related timing and excludes application limits, leave benefits, experiment requirements, and graduation dates, with all four regression tests passing. I used the same session for the checker so that the original tool-call prompts and responses were preserved.
 
-The result was that all of the requirements were MET after rerunning with the same user profile. 
+The result after the 3rd run was that all of the requirements were MET after rerunning with the same user profile. 
