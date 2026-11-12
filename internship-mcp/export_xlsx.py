@@ -31,6 +31,11 @@ def export_results(rows, profile, errors, output_dir=None):
         ('Qualifications — listing evidence', 'qualification_evidence', 65),
         ('Application link', 'listing_url', 50), ('Last updated', 'updated_at', 26),
         ('Source', 'source', 18),
+        ('Review status', 'review_status', 30),
+        ('Fit assessment', 'fit_assessment', 65),
+        ('Eligibility assessment', 'eligibility_assessment', 30),
+        ('Eligibility checks and evidence', 'review_checks', 100),
+        ('Fit evidence', 'fit_evidence', 65),
     ]
     for col, (label, key, width) in enumerate(columns, 1):
         cell = text_cell(sheet, 1, col, label)
@@ -47,7 +52,7 @@ def export_results(rows, profile, errors, output_dir=None):
             if row_num % 2 == 0:
                 cell.fill = PatternFill('solid', fgColor='EEF3F8')
     sheet.freeze_panes = 'C2'
-    sheet.auto_filter.ref = f'A1:I{max(1, len(rows) + 1)}'
+    sheet.auto_filter.ref = f'A1:N{max(1, len(rows) + 1)}'
     sheet.row_dimensions[1].height = 32
     for row_num in range(2, len(rows) + 2):
         sheet.row_dimensions[row_num].height = 120

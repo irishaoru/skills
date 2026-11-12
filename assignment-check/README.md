@@ -6,7 +6,7 @@ The MCP tool uses Stripe's Greenhouse board to find a list of internships and gi
 
 ## Motivations for the skill:
 Previously having to ask the agent to check my work against the assignment criteria repeatedly. 
-Prompt logs: 
+Prompt logs: "check my work based on this assignment criteria and tell me what i still need to add/what to improve for exisitng parts."
 
 ## Motivations for the MCP:
 Time consuming and tedious for find internships one by one that are relevant and organize it in a spreadsheet. It would make my life a lot easier to have AI automate this process for me so that I can focus on the important part like actually applying for the roles.
@@ -31,4 +31,6 @@ Assignment checker: Codex in VS Code.
 Internship MCP server: Codex in VS Code - tool successfully returned Stripe internships 
 
 ## How AI was used in the assignment:
-AI was used to build the bulk of the MCP server
+Codex drafted the SKILL.md and implemented the internship-search MCP server.
+I managed changes in the MCP server such as switching from Adzuna to Greenhouse, adding profile questions, and exporting .xlsx files.
+
